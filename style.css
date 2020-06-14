@@ -1,0 +1,43 @@
+body{
+    background-color:#0b0238;
+   
+}
+
+#btn{
+    font-size:30px;
+    position:absolute;
+    
+   
+}
+#content {
+    
+     color:#e6fafa;
+     animation:cborder 1s infinite;
+     animation-duration:1s;
+    position: relative;
+    top:50px;
+     border: 2px solid;
+     font-size:30px;
+     text-align: center;
+     display:block;
+     
+    }
+ @keyframes cborder{
+   from{border:2px solid;}
+   to{border:2px dotted;}
+  
+ }
+ #heading{
+     color:#b0b0ee;
+     font-size:30px;
+     animation: ccolor 1s infinite;
+     animation-duration:1s;
+     font-weight:none;
+     text-align:center;
+ }
+ @keyframes ccolor{
+   from{
+     color:#7fb3e3;font-size:30px;font-weight:none;
+   }
+   to{color:#d9d9e1;font-size:40px;font-weight:bold;}
+ }
